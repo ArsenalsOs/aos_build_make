@@ -3,6 +3,8 @@
 # current configuration and platform, which
 # are not specific to what is being built.
 
+PRODUCT_DEFAULT_DEV_CERTIFICATE := build/make/target/product/security/releasekey
+
 ifndef KATI
 $(warning Directly using config.mk from make is no longer supported.)
 $(warning )
