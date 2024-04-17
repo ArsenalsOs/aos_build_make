@@ -18,7 +18,8 @@
 # is installed to the platform.
 
 # Skip for unbundled builds that don't produce a platform image.
-ifeq (,$(TARGET_BUILD_UNBUNDLED))
+ifeq (0, 1)
+#ifeq (,$(TARGET_BUILD_UNBUNDLED))
 
 # Filter FAKE and NON_INSTALLABLE modules out and then collect those are not
 # available for platform
